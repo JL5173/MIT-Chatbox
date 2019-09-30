@@ -9,3 +9,6 @@
 * execute.py: It can help you test this package in the python terminal without deploying it to the Telegram or Wechat.
 * main.py: It's the main file in our project, and it introducts how you can deploy this program into the Telegram API
 * spell_correct.py: It is a python file that can correct your wrong spelled words because of mistakes. You can test that separately.
+
+## To be Continued:
+* Right now, we are handling how it can translate the descriptions of movies or music from ENG to CHI. Now the Bleu for translation from ENG to CHI can achieve 68.09, we will improve that by adding ATTENTION schema into the original Encoder-Decoder model.

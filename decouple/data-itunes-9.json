@@ -1,0 +1,843 @@
+﻿{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "text": "hey",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "howdy",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "hey there",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "hello",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "hi",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "I'm looking for some stuff to enjoy",
+        "intent": "music_search",
+        "entities": []
+      },
+      {
+        "text": "i'm looking for an album ",
+        "intent": "music_search",
+        "entities": [
+          {
+            "start": 19,
+            "end": 24,
+            "value": "album",
+            "entity": "music"
+          }
+        ]
+      },
+      {
+        "text": "show me some songs of Taylor Swift",
+        "intent": "music_search",
+        "entities": [
+          {
+            "start": 13,
+            "end": 19,
+            "value": "songs ",
+            "entity": "music"
+          },
+          {
+            "start": 22,
+            "end": 34,
+            "value": "Taylor Swift",
+            "entity": "artist"
+          }
+        ]
+      },
+      {
+        "text": "yes",
+        "intent": "affirm",
+        "entities": []
+      },
+      {
+        "text": "yep",
+        "intent": "affirm",
+        "entities": []
+      },
+      {
+        "text": "yeah",
+        "intent": "affirm",
+        "entities": []
+      },
+      {
+        "text": "show me some music about rains",
+        "intent": "music_search",
+        "entities": [
+          {
+            "start": 25,
+            "end": 30,
+            "value": "rains",
+            "entity": "theme"
+          },
+          {
+            "start": 13,
+            "end": 18,
+            "value": "music",
+            "entity": "music"
+          }
+        ]
+      },
+      {
+        "text": "bye",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "goodbye",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "good bye",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "stop",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "end",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "i am looking for an song of U2",
+        "intent": "music_search",
+        "entities": [
+          {
+            "start": 28,
+            "end": 30,
+            "value": "U2",
+            "entity": "artist"
+          },
+          {
+            "start": 20,
+            "end": 24,
+            "value": "song",
+            "entity": "music"
+          }
+        ]
+      },
+      {
+        "text": "search for songs about love",
+        "intent": "music_search",
+        "entities": [
+          {
+            "start": 23,
+            "end": 27,
+            "value": "love",
+            "entity": "theme"
+          },
+          {
+            "start": 11,
+            "end": 16,
+            "value": "songs",
+            "entity": "music"
+          }
+        ]
+      },
+      {
+        "text": "please recommend some music of Big Bang",
+        "intent": "music_search",
+        "entities": [
+          {
+            "start": 31,
+            "end": 39,
+            "value": "Big Bang",
+            "entity": "artist"
+          },
+          {
+            "start": 22,
+            "end": 27,
+            "value": "music",
+            "entity": "music"
+          }
+        ]
+      },
+      {
+        "text": "Some songs of Lady Gaga",
+        "intent": "music_search",
+        "entities": [
+          {
+            "start": 14,
+            "end": 23,
+            "value": "Lady Gaga",
+            "entity": "artist"
+          },
+          {
+            "start": 5,
+            "end": 10,
+            "value": "songs",
+            "entity": "music"
+          }
+        ]
+      },
+      {
+        "text": "indeed",
+        "intent": "affirm",
+        "entities": []
+      },
+      {
+        "text": "that's right",
+        "intent": "affirm",
+        "entities": []
+      },
+      {
+        "text": "ok",
+        "intent": "affirm",
+        "entities": []
+      },
+      {
+        "text": "great",
+        "intent": "affirm",
+        "entities": []
+      },
+      {
+        "text": "I want to listen to some music",
+        "intent": "music_search",
+        "entities": [
+          {
+            "start": 25,
+            "end": 30,
+            "value": "music",
+            "entity": "music"
+          }
+        ]
+      },
+      {
+        "text": "Please recommend some Chinese application",
+        "intent": "app_search",
+        "entities": [
+          {
+            "start": 22,
+            "end": 29,
+            "value": "Chinese",
+            "entity": "country"
+          },
+          {
+            "start": 30,
+            "end": 41,
+            "value": "application",
+            "entity": "app"
+          }
+        ]
+      },
+      {
+        "text": "I want to download some applications about sports",
+        "intent": "app_search",
+        "entities": [
+          {
+            "start": 43,
+            "end": 49,
+            "value": "sports",
+            "entity": "theme"
+          },
+          {
+            "start": 24,
+            "end": 36,
+            "value": "applications",
+            "entity": "app"
+          }
+        ]
+      },
+      {
+        "text": "I would like to search for the applications about food",
+        "intent": "app_search",
+        "entities": [
+          {
+            "start": 50,
+            "end": 54,
+            "value": "food",
+            "entity": "theme"
+          },
+          {
+            "start": 31,
+            "end": 43,
+            "value": "applications",
+            "entity": "app"
+          }
+        ]
+      },
+      {
+        "text": "I need to find an application about game",
+        "intent": "app_search",
+        "entities": [
+          {
+            "start": 36,
+            "end": 40,
+            "value": "game",
+            "entity": "theme"
+          },
+          {
+            "start": 18,
+            "end": 29,
+            "value": "application",
+            "entity": "app"
+          }
+        ]
+      },
+      {
+        "text": "I would like to watch a movie about love ",
+        "intent": "movie_search",
+        "entities": [
+          {
+            "start": 36,
+            "end": 40,
+            "value": "love",
+            "entity": "theme"
+          },
+          {
+            "start": 24,
+            "end": 29,
+            "value": "movie",
+            "entity": "movie"
+          }
+        ]
+      },
+      {
+        "text": "A movie about wars is better",
+        "intent": "movie_search",
+        "entities": [
+          {
+            "start": 14,
+            "end": 18,
+            "value": "wars",
+            "entity": "theme"
+          },
+          {
+            "start": 2,
+            "end": 7,
+            "value": "movie",
+            "entity": "movie"
+          }
+        ]
+      },
+      {
+        "text": "I want to watch a film of Leonard",
+        "intent": "movie_search",
+        "entities": [
+          {
+            "start": 18,
+            "end": 22,
+            "value": "film",
+            "entity": "movie"
+          },
+          {
+            "start": 26,
+            "end": 33,
+            "value": "Leonard",
+            "entity": "artist"
+          }
+        ]
+      },
+      {
+        "text": "The pet movie is attracting",
+        "intent": "movie_search",
+        "entities": [
+          {
+            "start": 8,
+            "end": 13,
+            "value": "movie",
+            "entity": "movie"
+          },
+          {
+            "start": 4,
+            "end": 7,
+            "value": "pet",
+            "entity": "theme"
+          }
+        ]
+      },
+      {
+        "text": "The dog movie is interesting",
+        "intent": "movie_search",
+        "entities": [
+          {
+            "start": 8,
+            "end": 13,
+            "value": "movie",
+            "entity": "movie"
+          },
+          {
+            "start": 4,
+            "end": 7,
+            "value": "dog",
+            "entity": "theme"
+          }
+        ]
+      },
+      {
+        "text": "Thank you!",
+        "intent": "appreciate",
+        "entities": []
+      },
+      {
+        "text": "Thanks!",
+        "intent": "appreciate",
+        "entities": []
+      },
+      {
+        "text": "How are you doing",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "see you",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "sure",
+        "intent": "affirm",
+        "entities": []
+      },
+      {
+        "text": "my name is Jinyang Li",
+        "intent": "introduction",
+        "entities": [
+          {
+            "start": 3,
+            "end": 7,
+            "value": "name",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "my name is Xin Yan",
+        "intent": "introduction",
+        "entities": [
+          {
+            "start": 3,
+            "end": 7,
+            "value": "name",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "you can call me Jinyang",
+        "intent": "introduction",
+        "entities": [
+          {
+            "start": 8,
+            "end": 12,
+            "value": "call",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "what's your name?",
+        "intent": "inquire",
+        "entities": []
+      },
+      {
+        "text": "how much is that ?",
+        "intent": "ask_price",
+        "entities": []
+      },
+      {
+        "text": "how much is this movie? ",
+        "intent": "ask_price",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "how much",
+            "entity": "ask_price"
+          }
+        ]
+      },
+      {
+        "text": "how much is this album?",
+        "intent": "ask_price",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "how much",
+            "entity": "ask_price"
+          }
+        ]
+      },
+      {
+        "text": "how much do I need to pay?",
+        "intent": "ask_price",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "how much",
+            "entity": "ask_price"
+          }
+        ]
+      },
+      {
+        "text": "how much",
+        "intent": "ask_price",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "how much",
+            "entity": "ask_price"
+          }
+        ]
+      },
+      {
+        "text": "how much is this application?",
+        "intent": "ask_price",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "how much",
+            "entity": "ask_price"
+          }
+        ]
+      },
+      {
+        "text": "no, that doesn't work for me",
+        "intent": "deny",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "no",
+            "entity": "deny"
+          },
+          {
+            "start": 13,
+            "end": 16,
+            "value": "n't",
+            "entity": "deny"
+          }
+        ]
+      },
+      {
+        "text": "it doesn't work",
+        "intent": "deny",
+        "entities": [
+          {
+            "start": 7,
+            "end": 10,
+            "value": "n't",
+            "entity": "deny"
+          }
+        ]
+      },
+      {
+        "text": "no, can you change?",
+        "intent": "deny",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "no",
+            "entity": "deny"
+          }
+        ]
+      },
+      {
+        "text": "it is awesome, but can you provide another?",
+        "intent": "deny",
+        "entities": [
+          {
+            "start": 15,
+            "end": 18,
+            "value": "but",
+            "entity": "transition"
+          }
+        ]
+      },
+      {
+        "text": "great, but can you change one?",
+        "intent": "deny",
+        "entities": [
+          {
+            "start": 7,
+            "end": 10,
+            "value": "but",
+            "entity": "transition"
+          }
+        ]
+      },
+      {
+        "text": "sorry, that doesn't fully meet my requirement",
+        "intent": "deny",
+        "entities": [
+          {
+            "start": 16,
+            "end": 19,
+            "value": "n't",
+            "entity": "deny"
+          }
+        ]
+      },
+      {
+        "text": "not interesting, guys",
+        "intent": "deny",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "not",
+            "entity": "deny"
+          }
+        ]
+      },
+      {
+        "text": "not lobster",
+        "intent": "deny",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "not",
+            "entity": "deny"
+          }
+        ]
+      },
+      {
+        "text": "very nice",
+        "intent": "praise",
+        "entities": [
+          {
+            "start": 5,
+            "end": 9,
+            "value": "nice",
+            "entity": "positive"
+          }
+        ]
+      },
+      {
+        "text": "great! ",
+        "intent": "praise",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "great",
+            "entity": "positive"
+          }
+        ]
+      },
+      {
+        "text": "yeah! I love it! Thank you!",
+        "intent": "praise",
+        "entities": [
+          {
+            "start": 17,
+            "end": 26,
+            "value": "Thank you",
+            "entity": "thanks"
+          },
+          {
+            "start": 0,
+            "end": 4,
+            "value": "yeah",
+            "entity": "positive"
+          }
+        ]
+      },
+      {
+        "text": "yes, I love this pretty much!",
+        "intent": "praise",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "yes",
+            "entity": "positive"
+          },
+          {
+            "start": 7,
+            "end": 28,
+            "value": "love this pretty much",
+            "entity": "positive"
+          }
+        ]
+      },
+      {
+        "text": "supper interesting! ",
+        "intent": "praise",
+        "entities": [
+          {
+            "start": 7,
+            "end": 18,
+            "value": "interesting",
+            "entity": "positive"
+          }
+        ]
+      },
+      {
+        "text": "This is the best music ",
+        "intent": "praise",
+        "entities": [
+          {
+            "start": 7,
+            "end": 16,
+            "value": " the best",
+            "entity": "positive"
+          }
+        ]
+      },
+      {
+        "text": "very nice, thank you!",
+        "intent": "praise",
+        "entities": [
+          {
+            "start": 11,
+            "end": 20,
+            "value": "thank you",
+            "entity": "thanks"
+          },
+          {
+            "start": 5,
+            "end": 9,
+            "value": "nice",
+            "entity": "positive"
+          }
+        ]
+      },
+      {
+        "text": "How to inquire you?",
+        "intent": "guide",
+        "entities": []
+      },
+      {
+        "text": "how to use U?",
+        "intent": "guide",
+        "entities": []
+      },
+      {
+        "text": "recommend sth",
+        "intent": "recommend",
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "value": "recommend",
+            "entity": "recommend"
+          }
+        ]
+      },
+      {
+        "text": "please recommend something",
+        "intent": "recommend",
+        "entities": [
+          {
+            "start": 7,
+            "end": 16,
+            "value": "recommend",
+            "entity": "recommend"
+          }
+        ]
+      },
+      {
+        "text": "can you recommend some interesting music?",
+        "intent": "music_search",
+        "entities": [
+          {
+            "start": 35,
+            "end": 40,
+            "value": "music",
+            "entity": "music"
+          }
+        ]
+      },
+      {
+        "text": "can you recommend some interesting applications?",
+        "intent": "app_search",
+        "entities": [
+          {
+            "start": 35,
+            "end": 47,
+            "value": "applications",
+            "entity": "app"
+          }
+        ]
+      },
+      {
+        "text": "can you recommend some interesting movies?",
+        "intent": "movie_search",
+        "entities": [
+          {
+            "start": 35,
+            "end": 41,
+            "value": "movies",
+            "entity": "movie"
+          }
+        ]
+      },
+      {
+        "text": "You can call me Yi Qin",
+        "intent": "introduction",
+        "entities": [
+          {
+            "start": 8,
+            "end": 12,
+            "value": "call",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "My name is Jing Du",
+        "intent": "introduction",
+        "entities": [
+          {
+            "start": 3,
+            "end": 7,
+            "value": "name",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "please recommend something",
+        "intent": "rcm_random",
+        "entities": [
+          {
+            "start": 17,
+            "end": 26,
+            "value": "something",
+            "entity": "random"
+          }
+        ]
+      },
+      {
+        "text": "can you recommend something",
+        "intent": "rcm_random",
+        "entities": [
+          {
+            "start": 18,
+            "end": 27,
+            "value": "something",
+            "entity": "random"
+          }
+        ]
+      }
+    ]
+  }
+}

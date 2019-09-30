@@ -13,7 +13,7 @@ from rasa_nlu import config
 trainer = Trainer(config.load("config_spacy.yml"))
 
 # Load the training data
-training_data = load_data('data-itunes-8.json')
+training_data = load_data('data-itunes-9.json')
 
 # Create an interpreter by training the model
 interpreter = trainer.train(training_data)
